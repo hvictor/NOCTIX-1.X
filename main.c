@@ -18,4 +18,6 @@ int main(void)
     
     // Process thermal video stream from the FLIR
     FLIR_Process();
+    
+    return 0;
 }
