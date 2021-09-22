@@ -107,10 +107,10 @@ void BSP_Initialize()
     BSP_Initialize_SPI2();
     BSP_Initialize_LEDs();
     
-    tft_init(240, 320);
+    tft_init(240, 240/*320*/);
     tft_fill_screen(TFT_COLOR_BLACK);
-    tft_set_cursor(0, 320 - tft_get_char_pixels_y() - 1);
-    tft_set_text_color(TFT_COLOR_RED);
+    tft_set_cursor(0, 240 - tft_get_char_pixels_y() - 1);
+    tft_set_text_color(TFT_COLOR_BLUE);
     tft_printf("* ");
     tft_set_text_color(TFT_COLOR_WHITE);
     tft_printf("NOCTIX-1 Module Core Executing.");

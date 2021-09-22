@@ -298,7 +298,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1d000000-1d0fffff"/>
         <property key="memories.rww" value="true"/>
-        <property key="poweroptions.powerenable" value="false"/>
+        <property key="poweroptions.powerenable" value="true"/>
         <property key="programmerToGoFilePath"
                   value="C:/Users/vh/MPLABXProjects/SPI_PIC32MZ.X/debug/default/SPI_PIC32MZ_ptg"/>
         <property key="programmerToGoImageName" value="SPI_PIC32MZ_ptg"/>
@@ -422,9 +422,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1d000000-1d0fffff"/>
         <property key="memories.rww" value="true"/>
-        <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Users/vh/MPLABXProjects/SPI_PIC32MZ.X/debug/default/SPI_PIC32MZ_ptg"/>
+        <property key="poweroptions.powerenable" value="true"/>
         <property key="programmerToGoImageName" value="SPI_PIC32MZ_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
